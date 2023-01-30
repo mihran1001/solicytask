@@ -1,0 +1,41 @@
+.card {
+    position: relative;
+    margin: 16px;
+    border: 1.4px solid gray;
+    padding: 55px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 2px;
+}
+
+.card div {
+    text-align: center;
+}
+
+.card-block {
+    display: grid;
+    padding: 16px;
+    grid-template-columns: 1fr 1fr;
+    overflow: auto;
+    width: 600px;
+    padding-right: 176px;
+    margin-left: 238px;
+}
+
+.delete {
+    position: absolute;
+    right: 8px;
+    top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.delete:hover {
+    color: red;
+}
+
+.delete {
+    transition: color 0.2s;
+}
+

@@ -1,0 +1,26 @@
+.header {
+    border-bottom: 1px solid gray;
+    padding: 10px 37px;
+    z-index: 1;
+    background-color: white;
+}
+
+button {
+    border: 2px solid rgb(12, 52, 228);
+    border-radius: 1px;
+    background-color: white;
+    margin-right: 55px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 7px 9px;
+}
+
+button:hover {
+    background-color: rgb(12, 52, 228);
+    color: white;
+}
+
+button {
+    transition: background-color 0.35s;
+}

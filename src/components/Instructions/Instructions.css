@@ -1,0 +1,14 @@
+.instructions {
+    border-left: 1px solid gray;
+    background-color: white;
+    font-size: 14px;
+    font-family: serif;
+    display: flex;
+    width: 200px;
+    padding: 16px;
+    font-weight: 900;
+    line-height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
